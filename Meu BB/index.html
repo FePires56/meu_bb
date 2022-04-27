@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/global.css">
+
+    <title>AgroConsult</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/logooriginal.png" alt="Logo Imagem" height="90px">
+                <h1>AgroConsult</h1>
+            </div>
+            <div class="itens_nav">
+                <li class="header_item"><b><a class="a_li" href="index.html#index">Início</a></b></li>
+                <li class="header_item"><b><a class="a_li" href="index.html#produtos">Produtos</a></b></li>
+                <li class="header_item"><b><a class="a_li" href="index.html#sobrenos">Sobre Nós</a></b></li>
+                <li class="header_item"><b><a class="a_li" href="index.html#equipe">Equipe</a></b></li>
+                <li class="header_item"><b><a class="a_li" href="index.html#contato">Contato</a></b></li>
+            </div>
+
+            <div class="nav_CL">
+                <div class="nav_Log">
+                    <li><b><a class="a_liLog" href="login.html">Login</a></b></li>
+                </div>
+                <div class="nav_Cad">
+                    <li><b><a class="a_liCad" href="">Cadastro</a></b></li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="index">
+        <div class="slider">
+            <div class="carrossel">
+                <input type="radio" name="radio_btn" id="radio1">
+                <input type="radio" name="radio_btn" id="radio2">
+                <input type="radio" name="radio_btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="img/carrossel_1.jpg" alt="imagem 1" height="800px" >
+                </div>
+                <div class="slide">
+                    <img src="img/carrossel_2.jpg" alt="imgaem 2" height="800px" >
+                </div>
+                <div class="slide">
+                    <img src="img/carrossel_3.jpg" alt="imagem 3" height="800px" >
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+
+
+        <script src="js/carrossel.js"></script>
+    </section>
+
+
+</body>
+
+</html>
+

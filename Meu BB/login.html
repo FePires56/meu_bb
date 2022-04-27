@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale='1.0'">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+        <div class="in_login">
+            <h1 class="h1">Login</h1><br>
+            <input placeholder="E-mail:" type="text"> <br><br><br>
+            <input id="in_senha" type="password" placeholder="Senha:"><br><br>
+            <div id="checkbox">
+                <img id="img_ocultar" src="img/oculto.png" alt="ocultar" style="height: 10px;" onclick="mostrar()">
+            </div>
+
+            <button class="botao1">Login</button>
+            <h4 class="h4"><a href="cadastro.html">Cadastre-se</a></h4>
+</body>
+</html>
+<script>
+    function mostrar() {
+
+        if (in_senha.type == "password") {
+            img_ocultar.src = "img/exibindo.png"
+            in_senha.type = "text"
+        } else {
+            img_ocultar.src = "img/oculto.png"
+            in_senha.type = "password"
+        }
+    }
+</script>
